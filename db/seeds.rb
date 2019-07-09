@@ -11,7 +11,7 @@ Note.destroy_all
 30.times do
   User.create(name: Faker::Name.name, topics: [], notes: [])
 end
-
+#comment
 # TOPICS
 # topic_1 = Topic.create(title: 'Science', tags: ['science', 'biology', 'chemistry'], user: user_1)
 # topic_2 = Topic.create(title: 'Sports', tags: ['balls', 'sweaty dudes', 'eating nuts', 'CTE'], user: user_3)
